@@ -1,0 +1,102 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    border-style: solid;
+}
+
+.header_contant {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+
+}
+
+.header_logo {
+    flex: 0 0 16.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+
+}
+
+.header_logo_img {
+    width: 100%;
+    height: 100%;
+}
+
+.header_title {
+    flex: 8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-right-style: solid;
+    border-left-style: solid;
+
+    h1 {
+        font-size: 100px;
+        margin: 10px;
+    }
+
+    h2 {
+        margin: 0;
+    }
+}
+
+.header_title_date {
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.header_contact {
+    flex: 13.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.header_contact_link {
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 900;
+    margin: 10px;
+    width: 120px;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+}
+
+.header_menu_block {
+    flex: 2.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-style: solid;
+    border-right-style: solid;
+    padding: 20px;
+}
+
+.header_menu_block_link {
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    &:hover {
+        color: #26498d;
+        cursor: pointer;
+    }
+}
