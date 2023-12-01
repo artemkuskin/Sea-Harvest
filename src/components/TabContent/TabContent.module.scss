@@ -1,0 +1,21 @@
+.content {
+    width: 80%;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.dots {
+    flex-grow: 1;
+    width: 20%;
+    height: 1em;
+    border-bottom: 2px dotted
+}

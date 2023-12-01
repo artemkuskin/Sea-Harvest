@@ -129,7 +129,6 @@
 .header_menu_block {
     flex: 2.5;
     display: flex;
-
     align-items: center;
     justify-content: center;
     border-top-style: solid;
@@ -151,4 +150,8 @@
         color: #26498d;
         cursor: pointer;
     }
+}
+
+.circle_3 {
+    opacity: 1;
 }
